@@ -9,9 +9,49 @@
 body {
   font-family: 'Roboto', sans-serif;
   display: flex;
+  background: #43cea2;
+  background: -webkit-linear-gradient(to right, #185a9d, #43cea2);
+  background: linear-gradient(to right, #185a9d, #43cea2); 
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
   overflow: hidden;
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  height: 75vh;
+  width: 75vw;
+  background: white;
+  justify-content: flex-start;
+  flex-direction: column;
+
+}
+
+.container h1 {
+  padding: 5px 0 0 0;
+  height: 50px;
+  width: 75vw;
+  text-align: center;
+  background-color: #97266d;
+  color: wheat;
+
+}
+
+.container .buttons form {
+  text-align: center;
+  padding: 20px 0 10px 0;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container .buttons form select {
+  height: 30px;
+  width: 30vw;
+  margin-top: 5px;
+  text-align: center;
 }
